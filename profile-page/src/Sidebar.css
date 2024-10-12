@@ -1,0 +1,57 @@
+/* src/Sidebar.css */
+
+.sidebar {
+    width: 250px;
+    background-color: #fff;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Add some space above the sidebar */
+  }
+  
+  .sidebar h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .sidebar li:hover {
+    color: #000000;
+  }
+  
+  .sidebar .notification {
+    background-color: #000000;
+    color: #fff;
+    border-radius: 12px;
+    padding: 2px 8px;
+    margin-left: 5px;
+  }
+  
+  .logout-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .logout-button:hover {
+    background-color: #000000;
+  }

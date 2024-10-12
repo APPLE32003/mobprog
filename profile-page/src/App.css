@@ -1,0 +1,22 @@
+/* src/App.css */
+
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #000000, #ffffff);
+  position: relative; /* For background pseudo-elements */
+}
+
+.app-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('C:\Users\pc\Downloads\pastel-pink-abstract-flow-design-texture-background.jpg'); /* Replace with your pattern image URL */
+  opacity: 0.1; /* Make the pattern subtle */
+  z-index: 0; /* Place it behind content */
+}
